@@ -14,7 +14,7 @@ This example was created to familiarize myself with creating a land cover map. I
 
 This solution uses [Sentinel-2](https://www.sentinel-hub.com/) imagery and the [South African Land Cover (SANLC) 2018](https://www.environment.gov.za/projectsprogrammes/egis_landcover_datasets) as input:
  
-   - A reference land cover is essential. Your local land cover will have all the classes deemed necessary within your area. The SANLC used in this example has 73 classes (which is alot). It is idosyncratic and specific within the context of South Africa's needs. Example: it differentiates formal settlement from informal settlements (slums, favelas, hoovervilles, squater camps). It was created with Sentinel imagery through a semi-automated process entailing an accuracy assessment at 6750 sample points throughout South Africa. It is of a very high standard.
+   - A reference land cover is essential. Your local land cover will have all the classes deemed necessary within your area. The SANLC used in this example has 73 classes (which is alot). It is idosyncratic and specific within the context of South Africa's needs. Example: it differentiates formal settlement from informal settlements (slums, favelas, hoovervilles, squater camps). It was created with Sentinel imagery through a semi-automated process entailing an accuracy assessment at 6750 sample points throughout South Africa. It is of a very high standard -  - I merged some of these classess to meet my desires.
    
    - You'll need an Area-of-Interest (AOI). This example covers an area within the [City of Cape Town](https://www.capetown.gov.za/). It contains a variety of built-environment and agricultural land within a 100km radius. Its a good test.
     
