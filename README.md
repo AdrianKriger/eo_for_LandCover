@@ -27,7 +27,7 @@ This solution uses [Sentinel-2](https://www.sentinel-hub.com/) imagery and the [
 
 There are two solutions: A [LightGBM](https://lightgbm.readthedocs.io/en/latest/) machine learning model and a fastai method that uses [ResNet50]. Each folder contains the respective solution. For simplicity the workflow is broken down into several notebooks. 
 
-    eo-learn:
+    lightgbm:
 
        1) Select Area and create AOI
        2) Access Sentinel-2 imagery, and along with reference Land Cover, create data for training (or fill EOPatchs);
