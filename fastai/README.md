@@ -1,0 +1,1 @@
+As soon as I've completed the [fastai](https://course.fast.ai/) course this folder will contain a Land Cover classification example using [sentinelhub](https://www.sentinel-hub.com/) services with a ["pre-trained"](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) ResNet50 Deep Learning model. 
