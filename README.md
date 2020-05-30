@@ -7,7 +7,7 @@ If you are looking for a country or region-wide solution I suggest you investiga
 
 There are possibly easier methods and more efficient workflows to achieve the same result. A very cool example built with Google Cloud Platform can be found [here](http://jpbouchet.com/work/landcover-on-demand/).
 
-This example was created to familiarize myself with creating a land cover map. It first works through the Machine Learning workflow on the [eo-learn](https://eo-learn.readthedocs.io/en/latest/examples.htmlIt) site and then does the same with the [fastai](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) Deep Learning example. It does so with an extremely small area. One satellite image. 
+This example was created to familiarize myself with creating a land cover map. It first works through the Machine Learning workflow on the [eo-learn](https://eo-learn.readthedocs.io/en/latest/examples.htmlIt) site and then does the same with the [fastai](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) Deep Learning method. It does so with an extremely small area. One satellite image. 
 
 ### Data
 
