@@ -1,4 +1,4 @@
- Land Cover from Satelite Imagery   <img align="right" src="../figs/Prediction_comparison.png">
+ Land Cover from Satellite Imagery   <img align="right" src="../figs/Prediction_comparison.png">
 ============================
 
 This is a personal project.
