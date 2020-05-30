@@ -9,7 +9,6 @@ There are possibly easier methods and more efficient workflows to achieve the sa
 
 This example was created to familiarize myself with creating a land cover map. It first works through the Machine Learning workflow on the [eo-learn](https://eo-learn.readthedocs.io/en/latest/examples.htmlIt) site and then does the same with the [fastai](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) Deep Learning example. It does so with an extremely small area. One satellite image. 
 
-
 ### Data
 
 This solution uses [Sentinel-2](https://www.sentinel-hub.com/) imagery and the [South African Land Cover (SANLC) 2018](https://www.environment.gov.za/projectsprogrammes/egis_landcover_datasets) as input:
@@ -20,10 +19,9 @@ This solution uses [Sentinel-2](https://www.sentinel-hub.com/) imagery and the [
     
    - Because I did not have the resources to download an entire years worth of satellite imagery but wanted to test and work through both these solutions; I narrowed the search to when wonderful satellite imagery was available. To do so: access [Sentinel Hub](https://www.sentinel-hub.com/), search and note the date a series of suitable images are available. No more than one day should do. 
            
-     You'll also need a Sentinel-hub account. You can get a trial version [here](https://www.sentinel-hub.com/). Once you have the account set up, login to Sentinel Hub Configurator. By default you will already have the default confoguration with an instance ID (alpha-numeric code of length 36). Instructions recommended that you create a new configuration (`Add new configuration`) and set the configuration to be based on Python scripts template. Such configuration will already contain all layers used in these examples. Otherwise you will have to define the layers for your configuration yourself.
+     You'll also need a Sentinel-hub account. You can get a trial version [here](https://www.sentinel-hub.com/). Once you have the account set up, login to Sentinel Hub Configurator. By default you will already have the default configuration with an instance ID (alpha-numeric code of length 36). Instructions recommended that you create a new configuration (`Add new configuration`) and set the configuration to be based on Python scripts template.
 
-     After you have decided which configuration to use, you have two options You can either put configuration's instance ID into sentinelhub package's configuration file following the [configuration instructions](https://sentinelhub-py.readthedocs.io/en/latest/configure.html) or you can write it down in the example notebooks.
-     
+     After you have decided which configuration to use, you can either put the configuration's instance ID into sentinelhub package's configuration file following the [configuration instructions](https://sentinelhub-py.readthedocs.io/en/latest/configure.html) or you can write it down in the example notebooks. 
 
 ### Process:
 
@@ -31,12 +29,14 @@ There are two solutions: A [LightGBM](https://lightgbm.readthedocs.io/en/latest/
 
     ## eo-learn:
 
-       1) AOI, reference mask and Sentinel-2 imagery (or fill EOPatchs with data);
-       2) Train, Test and Validate;
-       3) Predict.
+       1) Select Area and create AOI
+       2) Access Sentinel-2 imagery, and along with reference Land Cover, create data for training (or fill EOPatchs);
+       3) Train, Test and Validate;
+       4) Predict.
 
     ## fastai:
 
-       1) AOI, reference mask and Sentinel-2 imagery (or fill EOPatchs with data);
-       2) Retrieve a previously trained Sentinel-2 Deep Learning model. Train, Test and Validate;
-       3) Inference.
+       1) Select Area and create AOI
+       2) Access Sentinel-2 imagery, and along with reference Land Cover, create data for training (or fill EOPatchs);
+       3) Retrieve a previously trained Sentinel-2 Deep Learning model. Train, Test and Validate;
+       4) Inference.
