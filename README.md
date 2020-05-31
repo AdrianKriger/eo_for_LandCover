@@ -15,7 +15,7 @@ This solution uses [Sentinel-2](https://www.sentinel-hub.com/) imagery and the [
  
    - A reference land cover is essential. Your local land cover will have all the classes deemed necessary within your area. The SANLC used in this example has 73 classes (which is alot). It is idosyncratic and specific within the context of South Africa's needs. Example: it differentiates formal settlement from informal settlements (slums, favelas, hoovervilles, squater camps). It was created with Sentinel imagery through a semi-automated process entailing an accuracy assessment at 6750 sample points throughout South Africa. It is of a very high standard -  - I merged some of these classess to meet my desires.
    
-   - You'll need an Area-of-Interest (AOI). This example covers an area within the [City of Cape Town](https://www.capetown.gov.za/). It contains a variety of built-environment and agricultural land within a 100km radius. Its a good test.
+   - You'll need an Area-of-Interest (AOI). This example covers an area within the [City of Cape Town](https://www.capetown.gov.za/). It contains a variety of built-environment and agricultural land within a 50km radius. Its a good test.
     
    - Because I did not have the resources to download an entire years worth of satellite imagery but wanted to test and work through both these solutions; I narrowed the search to when wonderful satellite imagery was available. To do so: access [Sentinel Hub](https://www.sentinel-hub.com/), search and note the date a series of suitable images are available. No more than one day should do. 
            
