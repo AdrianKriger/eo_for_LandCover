@@ -5,15 +5,15 @@ This is a personal project.
 The intention is to create a small scale solution. 
 If you are looking for a country or region-wide solution I suggest you investigate [eo-learn](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-map) and [fastai](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai); on which these examples are built.
 
-There are possibly easier methods and more efficient workflows to achieve the same result. A very cool example built with Google Cloud Platform can be found [here](http://jpbouchet.com/work/landcover-on-demand/).
+There are possibly easier methods and more efficient workflows to achieve the same result. A very cool solution built with Google Cloud Platform can be found [here](http://jpbouchet.com/work/landcover-on-demand/).
 
-This example was created to familiarize myself with creating a land cover map. It first works through the Machine Learning workflow on the [eo-learn](https://eo-learn.readthedocs.io/en/latest/examples.htmlIt) site and then does the same with the [fastai](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) Deep Learning method. It does so with an extremely small area. One satellite image. 
+This example was created to familiarize myself with both: creating a land cover map and Deep Learning. It first works through the Machine Learning workflow on the [eo-learn](https://eo-learn.readthedocs.io/en/latest/examples.htmlIt) site and then does the same with the [fastai](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) Deep Learning method. It does so with an extremely small area. Less than one satellite image. 
 
 ### Data
 
 This solution uses [Sentinel-2](https://www.sentinel-hub.com/) imagery and the [South African Land Cover (SANLC) 2018](https://www.environment.gov.za/projectsprogrammes/egis_landcover_datasets) as input:
  
-   - A reference land cover is essential. Your local land cover will have all the classes deemed necessary within your area. The SANLC used in this example has 73 classes (which is alot). It is idosyncratic and specific within the context of South Africa's needs. Example: it differentiates formal settlement from informal settlements (slums, favelas, hoovervilles, squater camps). It was created with Sentinel imagery through a semi-automated process entailing an accuracy assessment at 6750 sample points throughout South Africa. It is of a very high standard -  - I merged some of these classess to meet my desires.
+   - A reference land cover is essential. Your local land cover will have all the classes deemed necessary within your area. The SANLC used in this example has 73 classes (which is alot). It is idosyncratic and specific within the context of South Africa's needs. Example: it differentiates formal settlement from informal settlements (slums, favelas, hoovervilles, squater camps). It was created with Sentinel imagery through a semi-automated process entailing an accuracy assessment at 6750 sample points throughout South Africa. It is of a very high standard -  I merged some of these classess to meet my desires.
    
    - You'll need an Area-of-Interest (AOI). This example covers an area within the [City of Cape Town](https://www.capetown.gov.za/). It contains a variety of built-environment and agricultural land within a 50km radius. Its a good test.
     
