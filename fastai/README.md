@@ -1,1 +1,3 @@
 As soon as I've completed the [fastai](https://course.fast.ai/) course this folder will contain a Land Cover classification example using [sentinelhub](https://www.sentinel-hub.com/) services with a ["pre-trained"](https://github.com/sentinel-hub/eo-learn/tree/master/examples/land-cover-fastai) ResNet50 Deep Learning model. 
+
+I'm experiencng some challenges with ```CUDA out of memory``` when attempting ```fit-one-cycle```. Throwing more computing power at this might not be the answer. I keep coming back to this problem hoping some spark of inspiration will lead to a solution. Until then...
